@@ -1,0 +1,92 @@
+//Alto del menú + submenú
+$menuHeight: 94px; // Esto es una variable
+
+* {
+    font-family: "Poppins", sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #eef2fb;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #045694;
+
+    // Para modificar los <a> que están dentro del header. Esto no es nativo de css
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    ul {
+        list-style: none; //Para quitar los puntos negros
+        padding: 0;
+    }
+
+    .mini-container {
+        ul {
+            display: flex;
+            justify-content: end;
+            margin: 0;
+            padding: 2.4px 30px;
+            
+            li {
+                a {
+                    font-size: .75rem;
+                }
+            }
+        }
+
+        border-bottom: 1px solid white;
+    }
+
+    .header-container {
+        display: flex;
+        height: 64px;
+
+        & > a {
+            margin-left: 15px;
+            margin-right: 15px;
+            display: flex;
+            flex-flow: column;
+
+            img {
+                margin-left: 70px;
+                margin: auto;
+                width: 105px;
+            }
+        }
+
+        nav {
+            display: flex;
+
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    margin-right: 2rem;
+                    a {
+                        font-size: .875rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    padding-top: $menuHeight;
+}
+
+@import "./components/mainNewComponent.scss";
