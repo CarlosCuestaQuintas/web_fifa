@@ -11,7 +11,7 @@
 
         <div class="superior-partido">
             <div>
-                <div>Título</div>
+                <div class="titulo-partido">{{ title }}</div>
                 <div>{{ subtitle }}</div>
             </div>
             <div class="fecha-partido">{{ fecha }}</div>

@@ -77,7 +77,7 @@
   </header>
 
   <main>
-    <mainNewComponent
+    <!-- <mainNewComponent
       newTitle="RPD de Corea domina a Japón y se consagra en Bogotá"
       newImg="https://digitalhub.fifa.com/transform/c15dcef4-786e-41da-9d02-47551e5cb3a6/Korea-DPR-v-Japan-Final-FIFA-U-20-Women-s-World-Cup-Colombia-2024?focuspoint=0.53,0.51&io=transform:fill,height:868,width:1536&quality=75"
       newText="Le ganó 1 a 0 al equipo de Kano, con gol de Choe Il Son, y consiguió su tercer título en la categoría."
@@ -87,7 +87,7 @@
       bannerTitle="Copa Mundial de Futsal de la FIFA Uzbekistán 2024"
       bannerText="Encuentra noticias, streamings en directo, resúmenes y los resultados en Uzbekistán"
       bannerLink="/"
-    />
+    /> -->
     <!-- <mainNewComponent v-for="i in 100" :num="i" msg="hola"/> -->
     <!-- Los dos puntos significan que lo que pongamos entre comillas que interpreta como una variable -->
 

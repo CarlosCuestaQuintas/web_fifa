@@ -1,6 +1,6 @@
 <template>
     <div id="copa-container">
-        <div>Copa mundial femenina sub-17</div>
+        <div class="titulo-copa">SIGUE LA COPA MUNDIAL FEMENINA SUB-17 DE LA FIFA</div>
         <Splide id="splide-copa" :options="{autoWidth:true,gap:15}">
             <SplideSlide>
                 <partidoComponent
@@ -20,9 +20,9 @@
                     subtitle="Partidos de grupo · Grupo D"
                     fecha="17 oct 2024"
                     hora="22:00"
-                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/JPN"
                     nombre-equipo1="JAPÓN"
-                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/POL"
                     nombre-equipo2="POLONIA"
                 />
             </SplideSlide>
@@ -44,9 +44,9 @@
                     subtitle="Partidos de grupo · Grupo D"
                     fecha="17 oct 2024"
                     hora="22:00"
-                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/JPN"
                     nombre-equipo1="JAPÓN"
-                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/POL"
                     nombre-equipo2="POLONIA"
                 />
             </SplideSlide>
@@ -68,9 +68,9 @@
                     subtitle="Partidos de grupo · Grupo D"
                     fecha="17 oct 2024"
                     hora="22:00"
-                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/JPN"
                     nombre-equipo1="JAPÓN"
-                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/POL"
                     nombre-equipo2="POLONIA"
                 />
             </SplideSlide>
@@ -92,9 +92,9 @@
                     subtitle="Partidos de grupo · Grupo D"
                     fecha="17 oct 2024"
                     hora="22:00"
-                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/JPN"
                     nombre-equipo1="JAPÓN"
-                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/POL"
                     nombre-equipo2="POLONIA"
                 />
             </SplideSlide>
