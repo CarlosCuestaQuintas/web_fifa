@@ -1,6 +1,8 @@
 <script setup>
   import mainNewComponent from './components/mainNewComponent.vue';
   import featuredNewsComponent from './components/featuredNewsComponent.vue';
+  import copaComponent from './components/copaComponent.vue'
+  import directoComponent from './components/directoComponent.vue';
   import footerComponent from './components/footerComponent.vue';
 </script>
 
@@ -89,7 +91,25 @@
     <!-- <mainNewComponent v-for="i in 100" :num="i" msg="hola"/> -->
     <!-- Los dos puntos significan que lo que pongamos entre comillas que interpreta como una variable -->
 
-    <featuredNewsComponent></featuredNewsComponent>
+    <!-- Voy a comentar lo siguiente de momento -->
+    <!-- <featuredNewsComponent></featuredNewsComponent> -->
+
+    <!-- Partidos copa mundial femenina sub17 -->
+    <copaComponent/>
+    
+    <!-- Partidos en directo -->
+    <directoComponent/>
+
+    <!-- Historias destacadas -->
+    
+    <!-- Aquí van las clasificaciones, pero ha dicho que esta no -->
+    
+    <!--  -->
+
+    <!--  -->
+
+    <!--  -->
+    
 
   </main>
 

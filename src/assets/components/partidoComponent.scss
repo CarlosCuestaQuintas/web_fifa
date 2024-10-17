@@ -1,0 +1,37 @@
+.partido {
+    background-color: white;
+    border-radius: 10px;
+    width: 420px;
+    height: 176px;
+
+    .superior-partido {
+        display: flex;
+        // gap:10px;
+
+        div {
+            // background-color: red;
+        }
+
+        .fecha-partido {
+            margin-left: auto;
+        }
+    }
+
+    .centro-partido {
+        display: flex;
+
+        .equipos-partido {
+            margin-right: auto;
+            .equipo {
+                display: flex;
+                margin-top: 15px;
+            }
+        }
+
+        .hora-partido {
+            // background-color: blue;
+            // margin-left: auto;
+            margin: auto 0 auto 0;
+        }
+    }
+}

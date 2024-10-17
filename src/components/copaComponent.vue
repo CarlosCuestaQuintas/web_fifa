@@ -1,0 +1,107 @@
+<template>
+    <div id="copa-container">
+        <div>Copa mundial femenina sub-17</div>
+        <Splide id="splide-copa" :options="{autoWidth:true,gap:15}">
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo C"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="RPD DE COREA"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="MÉXICO"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo D"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="JAPÓN"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="POLONIA"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo C"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="RPD DE COREA"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="MÉXICO"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo D"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="JAPÓN"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="POLONIA"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo C"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="RPD DE COREA"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="MÉXICO"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo D"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="JAPÓN"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="POLONIA"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo C"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="RPD DE COREA"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="MÉXICO"
+                />
+            </SplideSlide>
+            <SplideSlide>
+                <partidoComponent
+                    title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
+                    subtitle="Partidos de grupo · Grupo D"
+                    fecha="17 oct 2024"
+                    hora="22:00"
+                    bandera-equipo1="https://api.fifa.com/api/v3/picture/flags-sq-1/PRK"
+                    nombre-equipo1="JAPÓN"
+                    bandera-equipo2="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX"
+                    nombre-equipo2="POLONIA"
+                />
+            </SplideSlide>
+        </Splide>
+    </div>
+</template>
+
+<script setup>
+    import partidoComponent from './partidoComponent.vue';
+</script>

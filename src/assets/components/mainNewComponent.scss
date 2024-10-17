@@ -47,5 +47,37 @@
 
     .right-container {
         width: 75%;
+
+        // &>div {
+        //     width: fit-content;
+        // }
+
+        // img {
+        //     max-width: 500px;
+        // }
+
+        // ul {
+        //     width: fit-content;
+        // }
+        
+        // li {
+        //     width: 200px;
+        // }
+
+        #News-Splide {
+            .splide__splide {
+                img {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 100%;
+                }
+            }
+
+            .splide__slide {
+                width: auto;
+                height: 100%;
+            }
+        }
     }
 }
