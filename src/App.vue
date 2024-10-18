@@ -11,16 +11,19 @@
     <div class="mini-container">
       <ul>
         <li>
-          <a href="#">Inside fifa</a>
-        </li>
-        <li>
-          <a href="#">Fifa store</a>
+          <a href="#">Comprar entradas</a>
         </li>
         <li>
           <a href="#">Fifa+</a>
         </li>
         <li>
-          <a href="#">Comprar entradas</a>
+          <a href="#">Fifa store</a>
+        </li>
+        <li>
+          <a href="#">Fifa collect</a>
+        </li>
+        <li>
+          <a href="#">Inside fifa</a>
         </li>
       </ul>
     </div>
