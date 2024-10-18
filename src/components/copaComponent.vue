@@ -1,7 +1,7 @@
 <template>
     <div id="copa-container">
         <div class="titulo-copa">SIGUE LA COPA MUNDIAL FEMENINA SUB-17 DE LA FIFA</div>
-        <Splide id="splide-copa" :options="{autoWidth:true,gap:15}">
+        <Splide id="splide-copa" :options="{autoWidth:true,gap:15,pagination:false}">
             <SplideSlide>
                 <partidoComponent
                     title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"
@@ -105,3 +105,7 @@
 <script setup>
     import partidoComponent from './partidoComponent.vue';
 </script>
+
+<style scoped>
+    @import '../assets/components/copaComponent.scss';
+</style>

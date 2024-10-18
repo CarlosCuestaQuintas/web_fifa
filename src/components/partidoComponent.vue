@@ -44,3 +44,7 @@
         nombreEquipo2: String
     })
 </script>
+
+<style scoped>
+    @import '../assets/components/partidoComponent.scss';
+</style>
