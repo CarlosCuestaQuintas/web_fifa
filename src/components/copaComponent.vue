@@ -1,6 +1,6 @@
 <template>
     <div id="copa-container">
-        <div class="titulo-copa">SIGUE LA COPA MUNDIAL FEMENINA SUB-17 DE LA FIFA</div>
+        <div class="titulo-copa texto-azul">SIGUE LA COPA MUNDIAL FEMENINA SUB-17 DE LA FIFA</div>
         <Splide id="splide-copa" :options="{autoWidth:true,gap:15,pagination:false}">
             <SplideSlide>
                 <partidoComponent

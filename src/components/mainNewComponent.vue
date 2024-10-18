@@ -12,7 +12,7 @@
         </div>
         <div class="right-container">
             <!-- <Splide id="News-Splide" :options="{rewind:true,width:'100%',height:'calc(90vh - 94px)'}" aria-label="splide-principal"> -->
-            <Splide id="News-Splide" :options="{rewind:true,pagination:false,width:'100%',height:'calc(90vh - 94px)'}" aria-label="splide-principal">
+            <Splide id="News-Splide" :options="{drag:false,pagination:false,width:'100%',height:'calc(90vh - 94px)'}" aria-label="splide-principal">
                 <SplideSlide>
                     <img class="splide__slide" src="https://digitalhub.fifa.com/transform/afd4f74d-76d1-4800-b347-3b2f5300bc38/Lionel-Messi-hat-trick-vs-Bolivia?&io=transform:fill,aspectratio:16x9,width:750&quality=100" alt="Messi">
                 </SplideSlide>

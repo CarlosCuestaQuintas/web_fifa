@@ -16,7 +16,7 @@
             </div>
             <div class="fecha-partido">{{ fecha }}</div>
         </div>
-        <div class="centro-partido">
+        <div class="centro-partido texto-azul">
             <div class="equipos-partido">
                 <div class="equipo">
                     <img :src="banderaEquipo1"/>

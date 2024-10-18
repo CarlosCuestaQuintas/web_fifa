@@ -90,6 +90,10 @@ main {
     padding-top: $menuHeight;
 }
 
+.texto-azul {
+    color: #03122b;
+}
+
 @import "./components/mainNewComponent.scss";
 // @import './components/copaComponent.scss';
 // @import './components/partidoComponent.scss';
