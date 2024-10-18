@@ -1,7 +1,7 @@
 <template>
     <div id="copa-container">
         <div class="titulo-copa texto-azul">SIGUE LA COPA MUNDIAL FEMENINA SUB-17 DE LA FIFA</div>
-        <Splide id="splide-copa" :options="{autoWidth:true,gap:15,pagination:false}">
+        <Splide id="splide-copa" :options="{autoWidth:true,gap:15,pagination:false,padding:40}">
             <SplideSlide>
                 <partidoComponent
                     title="Copa Mundial Femenina Sub-17 de la FIFA República Dominicana 2024"

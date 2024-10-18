@@ -1,14 +1,14 @@
 #copa-container {
-
     // TODO: Hay que hacer que no se corten las tarjetas con el padding (tal vez no haya que usar el padding así). Puede que haya una característica de los splides que sea útil aquí
+    padding: 24px 0;
 
     .titulo-copa {
         margin: 0 0 8px;
+        padding: 0 40px;
         // font-size: 18px;
         font-size: 24px;
     }
 
-    padding: 24px 40px;
     #splide-copa {
         .splide-partido {
             margin: 10px;
