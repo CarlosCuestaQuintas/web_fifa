@@ -1,8 +1,8 @@
 <template>
-    <div id="directo-container">
-        <div id="superior-directo">
-            <div id="titulo-directo" class="texto-azul">MIRA EN VIVO EN FIFA+</div>
-            <div id="mostrar-todo-directo"><a href="#">MOSTRAR TODO</a></div>
+    <div class="directo-container">
+        <div class="superior-directo">
+            <div class="titulo-directo texto-azul">MIRA EN VIVO EN FIFA+</div>
+            <div class="mostrar-todo-directo"><a href="#">MOSTRAR TODO</a></div>
         </div>
     </div>
 </template>
