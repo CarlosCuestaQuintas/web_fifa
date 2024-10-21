@@ -30,7 +30,6 @@
     <div class="header-container">
       <a href="/">
         <img src="/img/logo.webp">
-        <!-- La imagen debe ir en la carpeta public. Nos hemos creado otra dentro llamada img -->
       </a>
       <nav>
         <ul>
@@ -91,36 +90,12 @@
       bannerText="Encuentra noticias, streamings en directo, resúmenes y los resultados en Uzbekistán"
       bannerLink="/"
     />
-    
-    <!-- <mainNewComponent v-for="i in 100" :num="i" msg="hola"/> -->
-    <!-- Los dos puntos significan que lo que pongamos entre comillas que interpreta como una variable -->
-
-    <!-- Voy a comentar lo siguiente de momento -->
-    <!-- <featuredNewsComponent></featuredNewsComponent> -->
-
-    <!-- Partidos copa mundial femenina sub17 -->
     <copaComponent/>
-    
-    <!-- Partidos en directo -->
     <directoComponent/>
-
-    <!-- Historias destacadas -->
-    
-    <!-- Aquí van las clasificaciones, pero ha dicho que esta no -->
-    
-    <!--  -->
-
-    <!--  -->
-
-    <!--  -->
-    
-
   </main>
 
   <footer>
-    <footerComponent>
-
-    </footerComponent>
+    <footerComponent/>
   </footer>
 </template>
 

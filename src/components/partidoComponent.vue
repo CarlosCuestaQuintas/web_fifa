@@ -1,13 +1,5 @@
 <template>
     <div class="partido">
-        <!-- <h1>{{ title }}</h1>
-        <h3>{{ subtitle }}</h3>
-        <div>{{ fecha }}</div>
-        <div>{{ hora }}</div>
-        <img :src=banderaEquipo1></img>
-        <div>{{ nombreEquipo1 }}</div>
-        <img :src="banderaEquipo2"></img>
-        <div>{{ nombreEquipo2 }}</div> -->
 
         <div class="superior-partido">
             <div>
